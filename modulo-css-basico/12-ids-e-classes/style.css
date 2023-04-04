@@ -1,0 +1,8 @@
+.descricao-produto, .eletronico {
+    background-color: cornflowerblue;
+    border: solid 3px #000;
+}
+
+.promocao {
+    color: deeppink;
+}
