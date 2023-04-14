@@ -1,0 +1,18 @@
+a {
+    cursor: not-allowed;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
