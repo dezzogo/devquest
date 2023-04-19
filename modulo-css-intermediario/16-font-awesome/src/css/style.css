@@ -1,0 +1,18 @@
+.fa-facebook {
+    color: lightskyblue;
+}
+
+.fa-facebook:hover {
+    color: darkblue;
+    transition: 0.3s;
+}
+
+.fa-play {
+    font-size: 48px;
+    color: blueviolet;
+}
+
+.fa-play:hover {
+    color: red;
+    transition: 0.5s;
+}
