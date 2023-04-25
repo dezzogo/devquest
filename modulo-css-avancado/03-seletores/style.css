@@ -1,0 +1,42 @@
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    background-color: slateblue;
+    color: lemonchiffon;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo .classe-filha {
+    color: blue;
+}
+
+.paragrafo-com-virgula, .span {
+    text-decoration: line-through;
+    color: brown;
+}
+
+div > .sinal-maior {
+    color: blueviolet;
+}
+
+div + .sinal-mais {
+    color: darkcyan;
+}
+
+a[target=_blank] {
+    color: yellow;
+    background-color: black;
+}
