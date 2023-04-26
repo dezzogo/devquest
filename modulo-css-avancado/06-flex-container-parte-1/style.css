@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: nowrap; */
+    flex-flow: row-reverse wrap;
+}
+
+.container div {
+    background-color: darkmagenta;
+    color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
