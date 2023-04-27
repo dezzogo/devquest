@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section {
+    margin: 20px;
+}
+
+h1 {
+    width: 100%;
+}
+
+
+.container {
+    flex-wrap: wrap;
+    height: 130px;
+    width: 400px;
+
+}
+
+.flex-start .item, 
+.flex-end .item, 
+.center .item, 
+.stretch .item {
+    flex: 1;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+
+.flex-end {
+    align-content: flex-end;
+}
+
+.center {
+    align-content: center;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.space-between {
+    align-content: space-between;
+}
+
+.space-around {
+    align-content: space-around;
+}
+
+.space-evenly {
+    align-content: space-evenly;
+}
