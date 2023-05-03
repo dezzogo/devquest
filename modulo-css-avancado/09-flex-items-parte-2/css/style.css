@@ -1,0 +1,36 @@
+.flex-1 {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1;
+}
+
+.flex-100 {
+    flex: 1 1 100px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.item.item-3 {
+    order: 1;
+}
+
+.align-self.item-5 {
+    align-self: auto;
+}
+
+.align-self.start .item-3 {
+    align-self: flex-start;
+}
+
+.align-self.end .item-3 {
+    align-self: flex-end;
+}
+
+.align-self.center .item-3 {
+    align-self: center;
+}
+
+.align-self.stretch .item-3 {
+    align-self: stretch;
+}
