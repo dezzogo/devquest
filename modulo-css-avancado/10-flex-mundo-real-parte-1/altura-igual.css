@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex img {
+    max-width: 100%;
+}
+
+.coluna {
+    display: flex;
+    background-color: rgb(185, 151, 40);
+    flex: 0 1 250px;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.botao {
+    align-self: flex-start;
+    margin-top: auto;
+}
