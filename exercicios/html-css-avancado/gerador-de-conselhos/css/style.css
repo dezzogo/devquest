@@ -36,6 +36,7 @@ body {
     color: var(--advice-dice-color, #fff);
     font-size: 14px;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .advice-card .icon-dice {
@@ -54,19 +55,4 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-@media (max-width: 375px) {
-    .advice-card {
-        width: 90%;
-        height: 50%;
-    }
-
-    .advice-card .internal-content {
-        margin: 0 10% 30px;
-    }
-
-    .internal-content .advice-text {
-        font-size: 22px;
-    }
 }

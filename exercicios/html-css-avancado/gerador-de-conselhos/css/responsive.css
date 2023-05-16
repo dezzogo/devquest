@@ -1,0 +1,22 @@
+@media (max-width: 575px) {
+    .advice-card {
+        width: 90%;
+    }
+
+    .advice-card .internal-content {
+        margin: 10px 20px 30px;
+    }
+
+    .internal-content .advice-text {
+        font-size: 23px;
+    }
+
+    .internal-content .advice-number {
+        font-size: 12px;
+    }
+
+    .advice-card .icon-dice {
+        width: 60px;
+        height: 60px;
+    }
+}
