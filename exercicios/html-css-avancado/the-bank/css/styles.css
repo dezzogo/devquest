@@ -1,0 +1,16 @@
+.header {
+    background-color: lightblue;
+    display: flex;
+    width: 100%;
+    height: 128px;
+}
+
+.logo-and-name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
