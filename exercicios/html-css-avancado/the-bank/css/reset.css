@@ -8,3 +8,10 @@
 ul, ol, li {
     list-style: none;
 }
+
+a, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
