@@ -1,5 +1,4 @@
 .header {
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +13,13 @@
     align-items: center;
     font-weight: 800;
     font-size: 20px;
-    line-height: 23.5px;
+    color: #000;
 }
 
 .menu {
     display: flex;
-    /* justify-content: flex-end; */
-    /* flex: 1; */
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .menu-item {
@@ -30,4 +29,9 @@
 .sobre, .button {
     background-color: #5BC241;
     color: #fff;
+}
+
+.button {
+    border-radius: 10px;
+    font-weight: 300;
 }
