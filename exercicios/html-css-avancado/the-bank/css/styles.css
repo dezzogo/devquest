@@ -2,15 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 128px;
-    padding: 30px;
+    padding: 45px;
     font-family: 'Public Sans', sans-serif;
 }
 
 .logo-and-name {
     display: flex;
     align-items: center;
+    margin-left: 5px;
     font-weight: 800;
     font-size: 20px;
     color: #000;
@@ -18,20 +17,27 @@
 
 .menu {
     display: flex;
+    align-items: center;
+    text-align: center;
     font-size: 15px;
     font-weight: 400;
 }
 
-.menu-item {
-    padding: 18px;
+.menu .menu-item {
+    padding: 11px 6px;
+    transition: 0.3s ease-in-out;
+    margin-left: 15px;
 }
 
-.sobre, .button {
+.menu-item:hover {
     background-color: #5BC241;
     color: #fff;
 }
 
-.button {
+.menu .button {
+    background-color: #5BC241;
+    color: #fff;
     border-radius: 10px;
     font-weight: 300;
+    padding: 10px 20px;
 }
