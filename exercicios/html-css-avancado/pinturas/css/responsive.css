@@ -1,0 +1,6 @@
+@media (max-width: 1440px) {
+    .paintings {
+        flex-direction: column;
+        margin: 45px 0;
+    }
+}
